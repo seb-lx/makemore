@@ -1,0 +1,1 @@
+names.txt from: https://github.com/karpathy/makemore/blob/master/names.txt
