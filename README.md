@@ -5,7 +5,7 @@ The goal of the makemore project is to build language models that can generate n
 
 The following models are implemented (WIP):
 - bigram model using one layer NN
-- simple MLP
+- MLP
 - ...
 
 
