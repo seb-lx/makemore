@@ -193,7 +193,7 @@ cmake --build build/release
 
 ### build scripts
 ```bash
-./build_and_run_debug.sh        # builds and runs main executable in debug mode
-./build_and_run_release.sh      # builds and runs main executable in release mode
-./test.sh                       # builds and runs test suite
+./scripts/build_and_run_debug.sh        # builds and runs main executable in debug mode
+./scripts/build_and_run_release.sh      # builds and runs main executable in release mode
+./scripts/test.sh                       # builds and runs test suite
 ```
