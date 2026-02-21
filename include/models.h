@@ -46,7 +46,7 @@ struct NN {
         ////////////////////////////
         ////// Create Dataset //////
         ////////////////////////////
-        static constexpr auto filename = "data/names.txt";
+        const auto filename = std::string{ "data/names.txt" };
         auto sf = makemore::SourceFile(filename);
         auto names = sf.get_lines();
         std::cout << "Read " << filename << " with size " << names.size() << "\n";
@@ -202,7 +202,7 @@ struct MLP {
 
         auto gen = std::mt19937{ Config::RANDOM_SEED };
 
-        static constexpr auto filename = "data/names.txt";
+        const auto filename = std::string{ "data/names.txt" };
         auto sf = makemore::SourceFile(filename);
         auto names = sf.get_lines();
         std::cout << "Read " << filename << " with size " << names.size() << "\n";
